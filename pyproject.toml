@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=42", "setuptools_scm[toml]>=3.4", "wheel", "Cython"]
+requires = ["setuptools>=42", "setuptools_scm[toml]>=3.4", "wheel", "Cython>=0.29.17,<=0.29.36"]
 
 [tool.setuptools_scm]
 write_to = "src/version.h"
